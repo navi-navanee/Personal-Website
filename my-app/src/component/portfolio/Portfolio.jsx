@@ -4,33 +4,33 @@ import IMG1 from '../../assets/pexel.png'
 import IMG2 from '../../assets/micromax.png'
 
 const data = [
-{
- id: 1,
- image:IMG1,
- title:'Pexel static web page',
- github:'https://github.com/navi-navanee/pexels.git ',
-demo:'https://dribbble.com/navi-navanee '
-},
-{
-  id: 2,
-  image:IMG2,
-  title:'Micromax static web page',
-  github:'https://github.com/navi-navanee/pexels.git ',
-  demo:'https://dribbble.com/navi-navanee'
- },
- {
-  id: 3,
-  image:IMG1,
-  title:'Pexel static web page',
-  github:'https://github.com/navi-navanee/pexels.git ',
- demo:'https://dribbble.com/navi-navanee '
- },
- {
-   id: 4,
-   image:IMG2,
-   title:'Micromax static web page',
-   github:'https://github.com/navi-navanee/pexels.git ',
-   demo:'https://dribbble.com/navi-navanee'
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Pexel static web page',
+    github: 'https://github.com/navi-navanee/pexels.git ',
+    demo: 'https://dribbble.com/navi-navanee '
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Micromax static web page',
+    github: 'https://github.com/navi-navanee/pexels.git ',
+    demo: 'https://dribbble.com/navi-navanee'
+  },
+  {
+    id: 3,
+    image: IMG1,
+    title: 'Pexel static web page',
+    github: 'https://github.com/navi-navanee/pexels.git ',
+    demo: 'https://dribbble.com/navi-navanee '
+  },
+  {
+    id: 4,
+    image: IMG2,
+    title: 'Micromax static web page',
+    github: 'https://github.com/navi-navanee/pexels.git ',
+    demo: 'https://dribbble.com/navi-navanee'
   },
 
 ]
@@ -42,7 +42,23 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
- 
+        {
+          data.map(({id,image,title,github,demo}) => {
+            return(
+              <article key={id} className='portfolio__item'>
+              <div className='portfolio__item-image'>
+                <img src={image} alt={title} />
+              </div>
+              <h3>{title}</h3>
+              <div className='portfolio__item-cta'>
+                <a href={github} className='btn' target='_blank'>Github</a>
+                <a href={demo} className='btn btn-primary' target='_blank' >Live Demo</a>
+              </div>
+            </article>
+            )
+          })
+        }
+
       </div>
     </section>
   )
