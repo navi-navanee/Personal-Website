@@ -1,5 +1,11 @@
 import ReactDOM from 'react-dom'
 import App from './App'
 import './index.css'
+import {HashRouter} from 'react-router-dom'
 
-ReactDOM.render(<App/>,document.querySelector('#root'))
+ReactDOM.render(
+    <HashRouter>
+
+<App/>
+    </HashRouter>
+,document.querySelector('#root'))
