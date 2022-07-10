@@ -16,21 +16,21 @@ const data = [
     image: IMG2,
     title: 'Micromax static web page',
     github: 'https://github.com/navi-navanee/pexels.git ',
-    demo: 'https://dribbble.com/navi-navanee'
+    demo: ''
   },
   {
     id: 3,
     image: IMG1,
     title: 'Pexel static web page',
     github: 'https://github.com/navi-navanee/pexels.git ',
-    demo: 'https://dribbble.com/navi-navanee '
+    demo: ''
   },
   {
     id: 4,
     image: IMG2,
     title: 'Micromax static web page',
     github: 'https://github.com/navi-navanee/pexels.git ',
-    demo: 'https://dribbble.com/navi-navanee'
+    demo: ''
   },
 
 ]
