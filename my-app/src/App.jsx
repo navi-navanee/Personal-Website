@@ -6,7 +6,7 @@ import Footer from './component/footer/Footer'
 import Header from './component/header/Header'
 import { Nav } from './component/nav/Nav'
 import Portfolio from './component/portfolio/Portfolio'
-import Services from './component/Services/Services'
+
 
 const App = () => {
   return (
@@ -15,7 +15,6 @@ const App = () => {
       <Nav/>
       <About/>
       <Experiance/>
-
        <Portfolio/>
        <Contact/>
 
