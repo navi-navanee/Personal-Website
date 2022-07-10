@@ -9,7 +9,7 @@ const data = [
     image: IMG1,
     title: 'Pexel static web page',
     github: 'https://github.com/navi-navanee/pexels.git ',
-    demo: 'https://dribbble.com/navi-navanee '
+    demo: 'https://navi-navanee.github.io/pexels/ '
   },
   {
     id: 2,
