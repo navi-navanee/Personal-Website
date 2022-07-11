@@ -37,7 +37,8 @@ const About = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aperiam dignissimos architecto eos repudiandae perspiciatis ducimus, voluptate illum tempore repellat non similique magni qui a est unde adipisci vitae excepturi.
+          Hello I'm a Self taught full-stack developer proficient in MERN stack with knowledge in HTML, CSS, SCSS, JavaScript, with a Degree in Bachelor of Engineering in Mechanical. I have a keen interest in coding and switch my career into IT field.Iam a self taught developer
+          and thats my strength and i have the skill to learn things faster and be versatile
           </p>
           <a href="#contact" className='btn btn-primary'>Lets Talk</a>
         </div>
