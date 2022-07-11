@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/Personal-Website/static/css/main.78225b12.css",
-    "main.js": "/Personal-Website/static/js/main.757430dd.js",
+    "main.css": "/Personal-Website/static/css/main.6acbf904.css",
+    "main.js": "/Personal-Website/static/js/main.663b958b.js",
+    "static/media/Netflix.png": "/Personal-Website/static/media/Netflix.b4cdd0761f50fba28406.png",
     "static/media/pexel.png": "/Personal-Website/static/media/pexel.58ec6a1fae37ec32bf07.png",
-    "static/media/cv.pdf": "/Personal-Website/static/media/cv.1510dbdfe733559b6f78.pdf",
     "static/media/main.jpg": "/Personal-Website/static/media/main.82b00d9c2bd083a7d78c.jpg",
+    "static/media/olx.png": "/Personal-Website/static/media/olx.226f2734ca5e680b2f28.png",
     "static/media/micromax.png": "/Personal-Website/static/media/micromax.f0853bab96aae8134a28.png",
+    "static/media/asus.png": "/Personal-Website/static/media/asus.d7a7014ed29932c5f49d.png",
+    "static/media/mpick.png": "/Personal-Website/static/media/mpick.c2527bc3258870f9e873.png",
     "static/media/about.jpg": "/Personal-Website/static/media/about.54f6e6b6fbdd122da46f.jpg",
+    "static/media/cv.pdf": "/Personal-Website/static/media/cv.e4bb961e2fb80a188d7b.pdf",
+    "static/media/userManagment.png": "/Personal-Website/static/media/userManagment.2114f27e019f7a9913b2.png",
     "index.html": "/Personal-Website/index.html",
-    "main.78225b12.css.map": "/Personal-Website/static/css/main.78225b12.css.map",
-    "main.757430dd.js.map": "/Personal-Website/static/js/main.757430dd.js.map"
+    "main.6acbf904.css.map": "/Personal-Website/static/css/main.6acbf904.css.map",
+    "main.663b958b.js.map": "/Personal-Website/static/js/main.663b958b.js.map"
   },
   "entrypoints": [
-    "static/css/main.78225b12.css",
-    "static/js/main.757430dd.js"
+    "static/css/main.6acbf904.css",
+    "static/js/main.663b958b.js"
   ]
 }
